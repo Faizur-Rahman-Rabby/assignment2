@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My blog</title>
+<style>
+  
+body {font-family: Arial, Helvetica, sans-serif}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+
+<div class="bg-img">
+  <div class="container">
+    <div class="topnav">
+      <a href="#home">Home</a>
+      <a href="./blog.html">Blog</a>
+      <a href="./contact.html">Contact</a>
+      <a href="#about">Single Post</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
